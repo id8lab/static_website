@@ -7,7 +7,6 @@ Here is what you will find in this project
 - What is HTML and CSS
 - How to create a static web page
 - How to install (deploy) the page to a server (nginx)
-- What is DNS
 
 ---
 
@@ -113,6 +112,10 @@ enter the following content
   </body>
 </html>
 ```
+
+---
+
+### How to install (deploy) the page to a server (nginx)
 With the page create, we need to setup the webserver. nginx has some configuration files. So lets go and create the pointer to this website.
 
 Go to the nginx configuration folder:
@@ -159,9 +162,3 @@ test your website in a browser with URL
 http://127.0.0.1:4567 or http://localhost:4567
 
 ---
-
-### How to install (deploy) the page to a server (nginx)
-
----
-
-### What is DNS
