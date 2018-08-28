@@ -1,0 +1,11 @@
+server {
+  listen 0.0.0.0:80;
+  server_name localhost domain.local domain;
+	root /usr/share/nginx/www/mvpsite;
+
+	index index.html index.htm;
+
+	location / {
+		try_files $uri $uri/ /index.html;
+	}
+}
