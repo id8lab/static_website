@@ -1,4 +1,4 @@
-# static_website
+# Static Website
 
 This repo contain a guideline on how to create a static website.
 
